@@ -105,7 +105,7 @@ computation step—bit-step semantics represent the entire computation as a
 single derivation.
 
 Try writing a derivation for the execution of the factorial programme with
-variable \texttt{n} initially holding value $2$.
+variable $\texttt{n}$ initially holding value $2$.
 
 Because these rules allow us to consider a "whole" computation, they will be
 useful in defining the semantics of blocks (where a "whole" block needs

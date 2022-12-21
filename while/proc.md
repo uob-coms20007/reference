@@ -37,13 +37,13 @@ A __statement__ is either:
 
 A set of __variable declarations__ is either:
 * empty; or
-* $\texttt{var x}\leftarrow a\texttt{;}\; d_v$, where \texttt{x} is a variable,
+* $\texttt{var x}\leftarrow a\texttt{;}\; d_v$, where $\texttt{x}$ is a variable,
   $a$ is an arithmetic expression, and $d_v$ is already a set of variable
   declarations.
 
 A set of __procedure definitions__ is either:
 * empty; or
-* $\texttt{proc p :=}\; s$, where \texttt{x} is a procedure name, and $s$ is a
+* $\texttt{proc p :=}\; s$, where $\texttt{x}$ is a procedure name, and $s$ is a
   statement.
 
 We will use $s$ and indexed variants as variables that stand for statements. We
@@ -56,7 +56,7 @@ definitions as $\mathcal{D}^{p}$.
 </div>
 
 We use the same conventions as for the simple While statements, and often use
-curly braces to denote \texttt{begin} and \texttt{end}; enjoying and
+curly braces to denote $\texttt{begin}$ and $\texttt{end}$; enjoying and
 overloading our existing use of curly braces in disambiguating their syntactic
 interpretation to augment their semantics as well.
 
